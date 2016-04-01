@@ -584,18 +584,6 @@ section {
     clear: both;
     content: "";
     display: table; }
-  section:nth-of-type(1) h2::before {
-    content: '1. '; }
-  section:nth-of-type(2) h2::before {
-    content: '2. '; }
-  section:nth-of-type(3) h2::before {
-    content: '3. '; }
-  section:nth-of-type(4) h2::before {
-    content: '4. '; }
-  section:nth-of-type(5) h2::before {
-    content: '5. '; }
-  section:nth-of-type(6) h2::before {
-    content: '6. '; }
   @media only screen and (min-width: 768px) {
     section {
       margin: 3em 0 5em; } }
@@ -726,7 +714,6 @@ section {
 
 /* xTypography section - basic style */
 .cd-typography h1::before {
-  content: 'Aa - ';
   color: #5f8ee4; }
 
 .cd-buttons .cd-box:first-of-type {
