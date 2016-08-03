@@ -12,8 +12,7 @@ function new_participant(){
 
 function init() {
 
-    console.log("here");
-    $('#record-new-participant').click(new_participant);
+// 
 }
 
 
