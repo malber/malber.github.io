@@ -137,34 +137,52 @@ a:focus {
         border-bottom: 1px solid rgba(255,255,255,.3);
         background: #000;
     }
+
+    .intro {
+        display: table;
+        width: 100%;
+        height: auto;
+        padding: 100px 0;
+        text-align: center;
+        background: url(../img/background-battesimo.jpg) no-repeat center -180px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        &:before {
+        content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+            opacity: .6; 
+      }
+    }
 }
 
-.intro {
-    display: table;
-    width: 100%;
-    height: auto;
-    padding: 100px 0;
-    text-align: center;
-    background: url(../img/background-battesimo.jpg) no-repeat bottom center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    &:before {
-    content: '';
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
-        opacity: .6; 
-  }
+@media(max-width:768px) {
+
+
+    .intro {
+        display: table;
+        width: 100%;
+        height: 490px;
+        padding: 100px 0;
+        text-align: center;
+        background: url(../img/background-battesimo.jpg) no-repeat center -70px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
 }
+
 
 .intro .intro-body {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 
 .intro .intro-body .brand-heading {
@@ -390,4 +408,10 @@ body {
 #about a {
     border-bottom: 1px dashed #999;
     color: #777;
+}
+
+#partecipare input {
+    width:300px;
+
+
 }
