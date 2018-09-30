@@ -426,10 +426,10 @@ body {
 }
 
 .clip-circle  {
-        -webkit-border-radius: 150px;
+/*        -webkit-border-radius: 150px;
         -moz-border-radius: 150px;
         border-radius: 150px;
-        border:1px solid #aaaaaa;
+*/        border:1px solid #aaaaaa;
         width:300px;
         height:auto;
    }
